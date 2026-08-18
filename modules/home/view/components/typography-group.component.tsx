@@ -15,7 +15,7 @@ const TypographyGroupComponent = () => {
       </div>
 
       {/* Typography Lines */}
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
         {/* Line 1 */}
         <div className="flex flex-wrap items-center gap-3 lg:gap-5">
           <span className="text-4xl lg:text-6xl leading-none font-light text-[#383838] tracking-[-0.03em]">
