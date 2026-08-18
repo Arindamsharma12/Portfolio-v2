@@ -17,7 +17,7 @@ const HeaderComponent = () => {
   return (
     <header className="sticky top-0 left-0 right-0 z-[60] pointer-events-auto bg-white/95 backdrop-blur-sm border-b border-gray-100/50">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
-        <div className="flex items-center justify-between h-20 lg:h-24">
+        <div className="flex items-center justify-between h-20 lg:h-18">
           {/* Logo */}
           <div className="flex items-center gap-2.5">
             <Triangle
@@ -74,23 +74,23 @@ const HeaderComponent = () => {
                 className="md:hidden w-10 h-10 flex items-center justify-center rounded-xl hover:bg-black/5 transition-colors relative"
                 aria-label={isOpen ? "Close menu" : "Open menu"}
               >
-                <Menu 
-                  className={`w-5 h-5 text-gray-700 absolute transition-all duration-300 ${isOpen ? "rotate-90 scale-0 opacity-0" : "rotate-0 scale-100 opacity-100"}`} 
-                  strokeWidth={1.8} 
+                <Menu
+                  className={`w-5 h-5 text-gray-700 absolute transition-all duration-300 ${isOpen ? "rotate-90 scale-0 opacity-0" : "rotate-0 scale-100 opacity-100"}`}
+                  strokeWidth={1.8}
                 />
-                <X 
-                  className={`w-5 h-5 text-gray-700 absolute transition-all duration-300 ${isOpen ? "rotate-0 scale-100 opacity-100" : "-rotate-90 scale-0 opacity-0"}`} 
-                  strokeWidth={1.8} 
+                <X
+                  className={`w-5 h-5 text-gray-700 absolute transition-all duration-300 ${isOpen ? "rotate-0 scale-100 opacity-100" : "-rotate-90 scale-0 opacity-0"}`}
+                  strokeWidth={1.8}
                 />
               </button>
             </SheetTrigger>
-            <SheetContent 
-              side="top" 
-              showCloseButton={false} 
+            <SheetContent
+              side="top"
+              showCloseButton={false}
               className="p-0 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-xl pt-24"
             >
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
-              
+
               <div className="flex flex-col px-6 pb-12 gap-8">
                 {/* Navigation Links */}
                 <div className="flex flex-col items-center gap-6 mt-4">
