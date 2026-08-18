@@ -2,7 +2,7 @@ import React from 'react'
 import DotGrid from "../../../../components/DotGrid";
 const BackgroundDottedComponent = () => {
   return (
-     <div className="absolute inset-0 z-0">
+     <div className="fixed inset-0 z-0">
         <DotGrid
           dotSize={4}
           gap={28}
