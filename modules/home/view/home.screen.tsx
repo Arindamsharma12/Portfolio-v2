@@ -14,7 +14,7 @@ const HomeScreen = () => {
       <HeaderComponent />
 
       {/* Main Content Container */}
-      <div className="relative z-10 flex w-full items-start lg:items-center justify-center pointer-events-none px-6 lg:px-8 pt-12 lg:py-0 overflow-hidden">
+      <div className="relative z-10 min-h-screen flex w-full items-start lg:items-center justify-center pointer-events-none px-6 lg:px-8 pt-12 lg:py-0 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] items-start lg:items-center gap-x-16 lg:gap-x-24 gap-y-4 lg:gap-y-24 pointer-events-auto w-full max-w-7xl">
           <ProfileCardComponent />
           <TypographyGroupComponent />
